@@ -5,7 +5,7 @@ import GlobalStyle from 'theme/GlobalStyle';
 const Root = () => (
   <div>
     <GlobalStyle />
-    <h1>hello</h1>
+    <h1>hello heller</h1>
     <Button>Close / save</Button>
     <Button secondary>Remove</Button>
     <Button active>Remove</Button>

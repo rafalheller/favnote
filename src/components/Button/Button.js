@@ -2,12 +2,12 @@ import styled, { css } from 'styled-components';
 
 const Button = styled.button`
   padding: 0;
-  background-color: #ffd82b;
+  background-color: ${({ color }) => color || 'hsl(49,100%,58%)'};
   width: 220px;
   height: 47px;
   border: none;
   border-radius: 50px;
-  font-family: 'Montserrat', 'Arial';
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 16px;
   text-transform: uppercase;
@@ -18,7 +18,7 @@ const Button = styled.button`
       width: 105px;
       height: 30px;
       font-size: 10px;
-      background-color: #e6e6e6;
+      background-color: hsl(0, 0%, 90%);
     `}
   ${({ active }) =>
     active &&
