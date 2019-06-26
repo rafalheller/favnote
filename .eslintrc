@@ -14,7 +14,7 @@
     "import/resolver": {
       "node": {
         "paths": [
-          "./src"
+          "src"
         ],
         "extensions": [
           ".js",
@@ -26,6 +26,7 @@
     }
   },
   "rules": {
+    "import/no-unresolved": 1,
     "react/jsx-filename-extension": [
       1,
       {
